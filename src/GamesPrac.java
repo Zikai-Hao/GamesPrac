@@ -18,7 +18,7 @@ public class GamesPrac {
  * 添加计算成绩的方法
  * 掷骰子游戏
  */
-class Users implements Comparable{
+class Users {
     private int no;
 
     public int getNo() {
@@ -49,9 +49,7 @@ class Users implements Comparable{
 
     private String name;
 
-    public int compareTo(Object u) {
-        return compareTo(((Users)u).grade);
-    }
+
 
     Users(){
 
